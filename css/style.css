@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: block;
+    max-width: 1104px;
+    min-width: 1104px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #b7b0b0;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
